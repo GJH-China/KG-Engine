@@ -2,6 +2,8 @@
 
 **中英双语** · [中文文档](#中文文档) | [English Documentation](#english-documentation)
 
+> Copyright (C) 2026 KaeDeRonm (凯德荣) · 以 **GNU AGPL-3.0** 发布，另有商业许可（见 [COMMERCIAL.md](COMMERCIAL.md)）
+
 ![version](https://img.shields.io/badge/version-KG2c-blue)
 ![python](https://img.shields.io/badge/python-3.9%2B-green)
 ![deps](https://img.shields.io/badge/dependencies-none%20(stdlib%20only)-brightgreen)
