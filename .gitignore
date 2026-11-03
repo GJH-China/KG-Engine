@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 模型与数据（体积大，且可能含敏感样本特征）
+data/
+*.model
+demo_store/
+
+# 样本文件 —— 绝不要把恶意样本提交进仓库
+*.exe
+*.dll
+*.sys
+*.scr
+*.vir
+*.bin
+samples/
+!examples/**/*.py
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 临时
+*.tmp
+*.part
+*.log
