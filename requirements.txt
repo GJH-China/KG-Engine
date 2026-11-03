@@ -1,0 +1,10 @@
+# KG 引擎 · 零外部依赖
+#
+# 本项目只使用 Python 标准库（hashlib / json / math / os / re / struct /
+# tarfile / threading / time / zipfile …），因此**没有必装依赖**。
+#
+# 只有处理 7z 归档时需要可选依赖：
+#   pip install py7zr
+# 未安装时，features.py 会自动跳过 .7z 展开，不影响其他格式与整体功能。
+#
+# 支持的 Python 版本：3.9+
