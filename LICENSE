@@ -1,32 +1,210 @@
-MIT License
+# 凯德荣 KG 引擎许可协议 1.0
+# KaeDeRonm KG Engine License 1.0
 
-Copyright (c) 2026 KaeDeRonm (凯德荣)
+Copyright (c) 2026 KaeDeRonm (凯德荣). All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+> 本协议中英双语具有同等效力；如有歧义，以中文为准。
+> The Chinese and English versions are equally authentic. In case of conflict,
+> the Chinese version prevails.
 
 ---
 
-Additional notice / 附加声明
+## 摘要（非正式，仅供快速理解）
 
-This project is a static malware-detection engine. It is provided for
-research, education, and defensive security use. Do not use it to develop,
-distribute, or conceal malware.
+- **个人、学习、研究、非营利** → 免费使用，可修改、可分发。
+- **任何商业用途** → **必须事先取得书面授权**。
+- **未经授权不得用于商业目的。**
 
-本项目是静态恶意软件检测引擎，供研究、教学与防御性安全用途。请勿用于开发、
-传播或隐藏恶意软件。
+以下正式条款为准。This summary is not legally binding.
+
+---
+
+## 中文正式条款
+
+### 第 1 条 定义
+
+1.1 **「本软件」**指本仓库中的全部源代码、文档、模型文件及其衍生作品，包括但不限于
+`kaederonm_kg/` 目录下的全部模块。
+
+1.2 **「商业使用」**指任何以直接或间接获取经济利益为目的的使用，包括但不限于：
+
+  (a) 将本软件或其衍生作品全部或部分集成进对外销售、出租、订阅收费的产品或服务；
+  (b) 使用本软件为付费客户提供安全检测、样本分析、威胁研判等服务；
+  (c) 在营利性组织内部将其用于生产环境（含内部业务系统、对外提供的服务）；
+  (d) 以本软件为基础提供托管服务（SaaS）、API 服务或云查杀服务；
+  (e) 将本软件作为商品或商品的主要卖点进行分发。
+
+1.3 **「非商业使用」**指不以获取经济利益为目的的使用，包括个人学习、学术研究、
+教学、非营利组织的公益用途，以及为评估是否采购商业授权而进行的测试。
+
+1.4 **「授权方」**指本软件著作权人 KaeDeRonm（凯德荣）。
+
+### 第 2 条 非商业使用的授权
+
+在遵守本协议全部条款的前提下，授权方**免费**授予你一项非独占、不可转让的许可，允许你：
+
+  (a) 在非商业用途下使用、复制、修改本软件；
+  (b) 在非商业用途下分发本软件及其修改版本，**但必须**：
+      (i) 保留本协议全文及全部版权声明；
+      (ii) 在显著位置注明你对本软件的修改；
+      (iii) 你的修改版本同样受本协议约束。
+
+### 第 3 条 商业使用需授权
+
+3.1 **任何商业使用均须事先获得授权方的书面许可。**
+
+3.2 商业授权需单独协商，可能涉及费用、使用范围、支持条款等。请通过本文件末尾的
+联系方式提出申请。
+
+3.3 **未取得书面授权而进行商业使用的**，授权方有权要求立即停止使用、删除全部副本，
+并保留追究法律责任的权利。
+
+3.4 授权方对商业授权申请**没有必须批准的义务**。
+
+### 第 4 条 限制
+
+未经授权方事先书面同意，你**不得**：
+
+  (a) 将本软件或其衍生作品以任何形式用于商业使用；
+  (b) 移除或修改本软件中的任何版权声明、许可声明或归属标识；
+  (c) 将本软件再许可（sublicense）给第三方，或将其作为其他许可下的作品分发；
+  (d) 以本软件的名义对外宣称获得了授权方的背书或认证。
+
+### 第 5 条 免责声明
+
+**本软件按「现状」提供，不附带任何明示或默示的担保**，包括但不限于对适销性、
+特定用途适用性和不侵权的担保。在任何情况下，授权方均不对因使用或无法使用本软件
+而产生的任何直接、间接、偶然、特殊或后果性损害承担责任，即使已被告知该等损害的可能性。
+
+**特别提示**：本软件是静态检测引擎，可能产生误报或漏报。将其用于安全防护时，
+应与其他安全措施配合，不应作为唯一的安全判断依据。
+
+### 第 6 条 协议终止
+
+你一旦违反本协议任何条款，本协议授予的全部权利**立即自动终止**。终止后你须立即
+停止使用并删除本软件的全部副本。第 5 条在协议终止后继续有效。
+
+### 第 7 条 适用法律
+
+本协议适用中华人民共和国法律。因本协议引起的争议，双方应友好协商解决；
+协商不成的，提交授权方所在地有管辖权的人民法院裁决。
+
+---
+
+## English Terms
+
+### 1. Definitions
+
+1.1 **"Software"** means all source code, documentation, model files and derivative
+works in this repository, including but not limited to every module under `kaederonm_kg/`.
+
+1.2 **"Commercial Use"** means any use aimed at obtaining, directly or indirectly,
+economic benefit, including but not limited to:
+
+  (a) integrating the Software, in whole or in part, into any product or service
+      that is sold, leased, or offered on a paid subscription basis;
+  (b) using the Software to provide paid security scanning, sample analysis,
+      or threat assessment services to customers;
+  (c) using the Software in production within a for-profit organization, including
+      internal business systems and externally facing services;
+  (d) offering hosted services (SaaS), API services, or cloud scanning services
+      built on the Software;
+  (e) distributing the Software as a product, or as a primary selling point of one.
+
+1.3 **"Non-Commercial Use"** means use not aimed at economic benefit, including
+personal study, academic research, teaching, charitable use by non-profit
+organizations, and testing conducted to evaluate whether to purchase a commercial
+license.
+
+1.4 **"Licensor"** means KaeDeRonm (凯德荣), the copyright holder of the Software.
+
+### 2. Grant for Non-Commercial Use
+
+Subject to full compliance with this License, the Licensor grants you a free,
+non-exclusive, non-transferable license to:
+
+  (a) use, copy and modify the Software for Non-Commercial Use;
+  (b) distribute the Software and your modifications for Non-Commercial Use,
+      **provided that** you:
+      (i) retain this License in full together with all copyright notices;
+      (ii) clearly indicate any modifications you made;
+      (iii) license your modified version under this same License.
+
+### 3. Commercial Use Requires a License
+
+3.1 **Any Commercial Use requires the prior written permission of the Licensor.**
+
+3.2 Commercial licenses are negotiated separately and may involve fees, scope
+limitations, and support terms. Requests should be made via the contact details
+at the end of this file.
+
+3.3 **If you engage in Commercial Use without a written license**, the Licensor may
+require you to cease use immediately and delete all copies, and reserves the right
+to pursue legal remedies.
+
+3.4 The Licensor is under **no obligation** to grant any commercial license.
+
+### 4. Restrictions
+
+Without the Licensor's prior written consent, you **may not**:
+
+  (a) use the Software or any derivative work for Commercial Use in any form;
+  (b) remove or alter any copyright, license, or attribution notice in the Software;
+  (c) sublicense the Software to third parties, or distribute it under any other license;
+  (d) claim endorsement or certification by the Licensor on behalf of the Software.
+
+### 5. Disclaimer of Warranty
+
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND**, express or
+implied, including but not limited to the warranties of merchantability, fitness for
+a particular purpose, and noninfringement. IN NO EVENT SHALL THE LICENSOR BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM
+THE USE OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES.
+
+**Specific notice**: this is a static detection engine and may produce false
+positives or false negatives. When used for security purposes it should be combined
+with other safeguards and must not be relied upon as the sole basis for a security
+decision.
+
+### 6. Termination
+
+All rights granted under this License **terminate automatically and immediately**
+upon any violation of its terms. Upon termination you must immediately cease use
+and delete all copies of the Software. Section 5 survives termination.
+
+### 7. Governing Law
+
+This License is governed by the laws of the People's Republic of China. Disputes
+shall first be resolved through friendly negotiation; failing that, they shall be
+submitted to the competent people's court at the Licensor's domicile.
+
+---
+
+## 商业授权申请 · Commercial Licensing
+
+如需商业授权，请提供以下信息并联系：
+
+To request a commercial license, please include the following and get in touch:
+
+- 公司/组织名称 · Company / organization name
+- 使用场景 · Intended use case
+- 预计部署规模 · Expected deployment scale
+- 是否需要技术支持 · Whether technical support is required
+
+**联系方式 · Contact**
+
+- 项目主页 · Project home: https://cloud.gjhdr.xyz/kdr/
+- 提交 Issue · Open an issue: https://github.com/GJH-China/KG-Engine/issues
+  （请勿在公开 Issue 中透露商业机密 · do not disclose confidential details publicly）
+- GitHub 账号 · GitHub: @GJH-China
+
+---
+
+SPDX-License-Identifier: LicenseRef-KaeDeRonm-1.0
+
+本协议不是 OSI 认可的开源许可。源码公开可见，但商业使用需授权 ——
+即业界所称的 **source-available**。
+This License is not an OSI-approved open source license. The source is publicly
+visible, but Commercial Use requires authorization — commonly referred to as
+**source-available**.
