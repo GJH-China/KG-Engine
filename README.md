@@ -5,7 +5,7 @@
 ![version](https://img.shields.io/badge/version-KG2c-blue)
 ![python](https://img.shields.io/badge/python-3.9%2B-green)
 ![deps](https://img.shields.io/badge/dependencies-none%20(stdlib%20only)-brightgreen)
-![license](https://img.shields.io/badge/license-source--available%20%C2%B7%20%E5%95%86%E7%94%A8%E9%9C%80%E6%8E%88%E6%9D%83-orange)
+![license](https://img.shields.io/badge/license-AGPL--3.0%20OR%20Commercial-blue)
 
 ---
 
@@ -115,22 +115,24 @@ score = Σ_f  w(f) · log( P(f | malicious) / P(f | benign) )
 
 ## 许可
 
-**源码可见（source-available），商业使用需授权。**
+**GNU AGPL-3.0 或商业许可（双许可）。**
 
-| 用途 | 是否免费 |
-|---|---|
-| 个人学习、学术研究、教学、非营利公益 | ✅ 免费，可修改可分发 |
-| 评估是否采购商业授权 | ✅ 免费 |
-| **任何商业用途** | ❌ **须事先取得书面授权** |
+| 你的场景 | 用 AGPL 免费 | 需要商业授权 |
+|---|---|---|
+| 个人学习、研究、教学 | ✅ | — |
+| 开源自己的 AGPL 兼容项目 | ✅ | — |
+| 内部工具，不外发也不对外提供服务 | ✅ | — |
+| 闭源产品里集成 | ❌ 必须开源整个产品 | ✅ |
+| SaaS / 云查杀 / API 服务 | ❌ 必须开放服务端源码 | ✅ |
+| 卖给客户但不想给源码 | ❌ | ✅ |
 
-「商业使用」包括但不限于：集成进销售/订阅收费的产品、为付费客户提供检测服务、
-在营利组织内部用于生产环境、提供 SaaS / API / 云查杀服务。
+一句话：**能接受 AGPL 的开源义务就不用花钱；不能接受就来找我谈商业授权。**
 
-完整条款见 [LICENSE](LICENSE)，商业授权申请方式也写在里面。
+- 完整条款：[LICENSE](LICENSE)（AGPL-3.0 全文）
+- 商业授权说明与联系方式：[COMMERCIAL.md](COMMERCIAL.md)
 
-> ⚠️ 本协议**不是 OSI 认可的开源许可**。代码公开可见，但商用要谈 —— 这是
-> source-available 模式，不是 open source。如果你在找可以任意商用的代码，
-> 这个项目不适合。
+> AGPL 是 OSI 认可的开源许可，**允许商业使用**——但它要求衍生作品与网络服务同样开源。
+> 商业许可卖的不是"许可权"，而是**豁免这个开源义务**。
 
 ---
 
@@ -240,21 +242,24 @@ Feature names look like `b448` (byte n-gram hash bucket), `f_entropy_7` (entropy
 
 ## License
 
-**Source-available. Commercial use requires a license.**
+**GNU AGPL-3.0 or a commercial license (dual licensing).**
 
-| Use | Free? |
-|---|---|
-| Personal study, academic research, teaching, non-profit | ✅ Free to use, modify, redistribute |
-| Evaluating whether to buy a commercial license | ✅ Free |
-| **Any commercial use** | ❌ **Prior written permission required** |
+| Your scenario | AGPL, free | Commercial license |
+|---|---|---|
+| Personal study, research, teaching | ✅ | — |
+| Open-sourcing your own AGPL-compatible project | ✅ | — |
+| Internal tooling, not distributed, not a service | ✅ | — |
+| Embedded in a closed-source product | ❌ must open-source the whole product | ✅ |
+| SaaS / cloud scanning / API service | ❌ must publish server-side source | ✅ |
+| Selling without giving source | ❌ | ✅ |
 
-"Commercial use" includes, without limitation: embedding in a sold or subscription
-product, providing paid detection services, use in production inside a for-profit
-organization, and offering SaaS / API / cloud-scanning services.
+In short: **if you can live with AGPL's obligations, it's free; if not, talk to us
+about a commercial license.**
 
-Full terms in [LICENSE](LICENSE); commercial licensing contact is in there too.
+- Full terms: [LICENSE](LICENSE) (AGPL-3.0 full text)
+- Commercial licensing and contact: [COMMERCIAL.md](COMMERCIAL.md)
 
-> ⚠️ This is **not an OSI-approved open source license**. The code is publicly
-> visible, but commercial use must be negotiated — this is source-available,
-> not open source. If you need code you can freely use commercially, this
-> project is not for you.
+> AGPL is an OSI-approved open source license and **does permit commercial use** — but
+> it requires derivative works and network services to be open-sourced too. What a
+> commercial license sells is not "permission to use", it is **a waiver of that
+> open-source obligation**.
